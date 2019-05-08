@@ -1,0 +1,304 @@
+doc/design.txt:        p_tcb->pend_relwai = true;
+doc/design.txt:        if (!p_tcb->pend_relwai) {
+doc/design.txt:        p_tcb->pend_relwai = false;
+doc/design.txt:          p_tcb->pend_chgpri = true;
+doc/design.txt:          p_tcb->pend_newpri = newpri;          
+doc/design.txt:        p_tcb->pend_relwai = true;
+doc/design.txt:        if (!p_tcb->pend_relwai) {
+doc/design.txt:        p_tcb->pend_relwai = false;
+doc/design.txt:       p_tcb->priority = p_tcb->pend_newpri;
+doc/design.txt:       p_tcb->pend_chgpri = false;
+doc/design.txt:   p_tcb->pend_relwai = false;
+arch/logtrace/trace_config.h:#define LOG_TSKSTAT(p_tcb) trace_2(LOG_TYPE_TSKSTAT, p_tcb, p_tcb->tstat)
+kernel/mp.h:	return(p_tcb->p_pcb);
+kernel/mp.h:	return(p_tcb->p_pcb);
+kernel/mp.h:	*pp_srcpcb = p_tcb->p_pcb;
+kernel/mp.h:	*pp_srcpcb = p_tcb->p_pcb;
+kernel/mp.h:	return(p_tcb->p_pcb);
+kernel/mp.h:	return(p_tcb->p_pcb);
+kernel/mp.h:	*pp_srcpcb = p_tcb->p_pcb;
+kernel/mp.h:	return(p_tcb->p_pcb);
+kernel/pridataq.c:		p_tcb->winfo_obj.pdq.data = data;
+kernel/pridataq.c:		p_tcb->winfo_obj.pdq.datapri = datapri;
+kernel/pridataq.c:		p_tcb->winfo_obj.pdq.data = data;
+kernel/pridataq.c:		p_tcb->winfo_obj.pdq.datapri = datapri;
+kernel/pridataq.c:		p_tcb->winfo_obj.pdq.data = data;
+kernel/pridataq.c:		p_tcb->winfo_obj.pdq.datapri = datapri;
+kernel/pridataq.c:		p_tcb->winfo_obj.pdq.data = data;
+kernel/pridataq.c:		p_tcb->winfo_obj.pdq.datapri = datapri;
+kernel/pridataq.c:			enqueue_pridata(p_pdqcb, p_tcb->winfo_obj.pdq.data, p_tcb->winfo_obj.pdq.datapri);
+kernel/pridataq.c:			*p_data = p_tcb->winfo_obj.pdq.data;
+kernel/pridataq.c:			*p_datapri = p_tcb->winfo_obj.pdq.datapri;
+kernel/pridataq.c:			enqueue_pridata(p_pdqcb, p_tcb->winfo_obj.pdq.data, p_tcb->winfo_obj.pdq.datapri);
+kernel/pridataq.c:			*p_data = p_tcb->winfo_obj.pdq.data;
+kernel/pridataq.c:			*p_datapri = p_tcb->winfo_obj.pdq.datapri;
+kernel/pridataq.c:			enqueue_pridata(p_pdqcb, p_tcb->winfo_obj.pdq.data, p_tcb->winfo_obj.pdq.datapri);
+kernel/pridataq.c:			*p_data = p_tcb->winfo_obj.pdq.data;
+kernel/pridataq.c:			*p_datapri = p_tcb->winfo_obj.pdq.datapri;
+kernel/mempfix.c:		p_tcb->winfo_obj.mpf.blk = blk;
+kernel/task_except.c:	if (TSTAT_DORMANT(p_tcb->tstat) || p_tcb->p_tinib->texrtn == NULL) {
+kernel/task_except.c:		p_tcb->texptn |= rasptn;
+kernel/task_except.c:			if (p_tcb == p_pcb->p_runtsk && p_tcb->enatex && p_pcb->ipmflg) {
+kernel/task_except.c:	if (TSTAT_DORMANT(p_tcb->tstat) || p_tcb->p_tinib->texrtn == NULL) {
+kernel/task_except.c:		p_tcb->texptn |= rasptn;
+kernel/task_except.c:			if (p_tcb == p_pcb->p_runtsk && p_tcb->enatex && p_pcb->ipmflg) {
+kernel/task_except.c:	if (TSTAT_DORMANT(p_tcb->tstat) || p_tcb->p_tinib->texrtn == NULL) {
+kernel/task_except.c:		pk_rtex->texstat = (p_tcb->enatex) ? TTEX_ENA : TTEX_DIS;
+kernel/task_except.c:		pk_rtex->pndptn = p_tcb->texptn;
+kernel/mp.c:		if (!TSTAT_RUNNABLE(my_p_tcb->tstat)) { 
+kernel/mp.c:		} else if (my_p_pcb != my_p_tcb->p_pcb) {
+kernel/mp.c:		if (my_p_pcb != my_p_tcb->p_pcb) {
+kernel/mp.c:		p_pcb = p_tcb->p_pcb;
+kernel/mp.c:		if (p_pcb != p_tcb->p_pcb) {
+kernel/mp.c:		p_pcb = p_tcb->p_pcb;
+kernel/mp.c:		if (p_pcb != p_tcb->p_pcb) {
+kernel/mp.c:		*pp_srcpcb = p_tcb->p_pcb;
+kernel/mp.c:				if (*pp_srcpcb != p_tcb->p_pcb) {
+kernel/mp.c:				if (*pp_srcpcb != p_tcb->p_pcb) {
+kernel/mp.c:			if (*pp_srcpcb != p_tcb->p_pcb) {
+kernel/mp.c:		*pp_srcpcb = p_tcb->p_pcb;
+kernel/mp.c:			if (*pp_srcpcb != p_tcb->p_pcb) {
+kernel/mp.c:			if (*pp_srcpcb != p_tcb->p_pcb) {
+kernel/mp.c:			if (*pp_srcpcb != p_tcb->p_pcb) {
+kernel/mp.c:		p_pcb = p_tcb->p_pcb;
+kernel/mp.c:		if (p_pcb != p_tcb->p_pcb) {
+kernel/mp.c:		p_pcb = p_tcb->p_pcb;
+kernel/mp.c:		if (p_pcb != p_tcb->p_pcb) {
+kernel/mp.c:		*pp_srcpcb = p_tcb->p_pcb;
+kernel/mp.c:				if (*pp_srcpcb != p_tcb->p_pcb) {
+kernel/mp.c:				if (*pp_srcpcb != p_tcb->p_pcb) {
+kernel/mp.c:			if (*pp_srcpcb != p_tcb->p_pcb) {
+kernel/mp.c:		p_pcb = p_tcb->p_pcb;
+kernel/mp.c:		if (p_pcb != p_tcb->p_pcb) {
+kernel/mp.c:	*pp_srcpcb = p_tcb->p_pcb;
+kernel/wait.c:	p_tcb->wercd = E_OK;
+kernel/wait.c:	if (TSTAT_WAIT_WOBJ(p_tcb->tstat)) {
+kernel/wait.c:		WOBJCB* volatile p_wobjcb = p_tcb->p_wobjcb;
+kernel/wait.c:		p_tcb->pend_relwai = true;
+kernel/wait.c:		(p_tcb->tmevtb).callback = NULL;
+kernel/wait.c:		release_tsk_lock(p_tcb->p_pcb);
+kernel/wait.c:		if (!(p_tcb->pend_relwai)) {
+kernel/wait.c:		p_tcb->pend_relwai = false;
+kernel/wait.c:	p_tcb->wercd = E_TMOUT;
+kernel/wait.c:		if (dispatch_request(p_tcb->p_pcb)) {
+kernel/wait.c:			p_tcb->p_pcb->reqflg = true;
+kernel/wait.c:	PCB *p_pcb = p_tcb->p_pcb;
+kernel/wait.c:	p_tcb->wercd = E_OK;
+kernel/wait.c:		if (dispatch_request(p_tcb->p_pcb)) {
+kernel/wait.c:	p_tcb->wercd = E_RLWAI;
+kernel/wait.c:		p_tcb->wercd = E_DLT;
+kernel/task_manage.c:	prcid = (prcid == TPRC_INI)? p_tcb->p_tinib->iaffinity : prcid;
+kernel/task_manage.c:	T_CHECK_MIG(p_tcb->p_tinib->affinity_mask, prcid);
+kernel/task_manage.c:	else if (TSTAT_RUNNABLE(p_tcb->tstat)){
+kernel/task_manage.c:				p_tcb->p_pcb = t_p_pcb;
+kernel/task_manage.c:	else if (TSTAT_DORMANT(p_tcb->tstat)) {
+kernel/task_manage.c:		p_tcb->p_pcb = t_p_pcb;
+kernel/task_manage.c:		if ((p_tcb->tmevtb).callback == NULL) {
+kernel/task_manage.c:			p_tcb->p_pcb = t_p_pcb;
+kernel/task_manage.c:			left_time = tmevtb_dequeue(f_p_pcb->p_tevtcb, &(p_tcb->tmevtb));
+kernel/task_manage.c:			tmevtb_insert(t_p_pcb->p_tevtcb, &(p_tcb->tmevtb), base_time(t_p_pcb->p_tevtcb) + left_time);
+kernel/task_manage.c:			p_tcb->p_pcb = t_p_pcb;
+kernel/task_manage.c:	if (TSTAT_DORMANT(p_tcb->tstat)) {
+kernel/task_manage.c:	else if (!(p_tcb->actque)) {
+kernel/task_manage.c:		p_tcb->actque = true;
+kernel/task_manage.c:	if (TSTAT_DORMANT(p_tcb->tstat)) {
+kernel/task_manage.c:	else if (!(p_tcb->actque)) {
+kernel/task_manage.c:		p_tcb->actque = true;
+kernel/task_manage.c:	prcid = (prcid == TPRC_INI)? p_tcb->p_tinib->iaffinity : prcid;
+kernel/task_manage.c:	T_CHECK_MIG(p_tcb->p_tinib->affinity_mask, prcid);
+kernel/task_manage.c:	if (TSTAT_DORMANT(p_tcb->tstat)) {
+kernel/task_manage.c:		p_tcb->p_pcb = t_p_pcb;
+kernel/task_manage.c:	else if (!(p_tcb->actque)) {
+kernel/task_manage.c:		p_tcb->actque = true;
+kernel/task_manage.c:		p_tcb->actprc = prcid;
+kernel/task_manage.c:	prcid = (prcid == TPRC_INI)? p_tcb->p_tinib->iaffinity : prcid;
+kernel/task_manage.c:	CHECK_MIG(p_tcb->p_tinib->affinity_mask, prcid);
+kernel/task_manage.c:	if (TSTAT_DORMANT(p_tcb->tstat)) {
+kernel/task_manage.c:		p_tcb->p_pcb = t_p_pcb;
+kernel/task_manage.c:	else if (!(p_tcb->actque)) {
+kernel/task_manage.c:		p_tcb->actque = true;
+kernel/task_manage.c:		p_tcb->actprc = prcid;
+kernel/task_manage.c:	ercd = p_tcb->actque ? 1 : 0;
+kernel/task_manage.c:	p_tcb->actque = false;
+kernel/task_manage.c:	p_tcb->actprc = TPRC_NONE;
+kernel/task_manage.c:	else if (TSTAT_DORMANT(p_tcb->tstat)) {
+kernel/task_manage.c:		if (TSTAT_RUNNABLE(p_tcb->tstat)) {
+kernel/task_manage.c:		else if (TSTAT_WAITING(p_tcb->tstat)) {
+kernel/task_manage.c:		if (p_tcb->actque) {
+kernel/task_manage.c:			p_tcb->actque = false;
+kernel/task_manage.c:			if ((p_tcb->actprc != TPRC_NONE) && (p_tcb->actprc != my_p_pcb->prcid)) {
+kernel/task_manage.c:				p_tcb->p_pcb = get_mp_p_pcb(p_tcb->actprc);
+kernel/task_manage.c:			p_tcb->actprc = TPRC_NONE;
+kernel/task_manage.c:				dspreq = dispatch_request(p_tcb->p_pcb);
+kernel/task_manage.c:	else if (TSTAT_DORMANT(p_tcb->tstat)) {
+kernel/task_manage.c:		if (!(TSTAT_WAITING(p_tcb->tstat) && TSTAT_WAIT_WOBJ(p_tcb->tstat))) {
+kernel/task_manage.c:			if ((p_tcb->actprc == TPRC_NONE) || (p_tcb->actprc == p_pcb->prcid)) {
+kernel/task_manage.c:				if (TSTAT_RUNNABLE(p_tcb->tstat)) {
+kernel/task_manage.c:				else if (TSTAT_WAITING(p_tcb->tstat)) {
+kernel/task_manage.c:				if (p_tcb->actque) {
+kernel/task_manage.c:					p_tcb->actque = false;
+kernel/task_manage.c:					p_tcb->actprc = TPRC_NONE;
+kernel/task_manage.c:				t_p_pcb = get_mp_p_pcb(p_tcb->actprc);
+kernel/task_manage.c:				t_acquire_dual_tsk_lock(p_tcb, p_tcb->actprc, &p_pcb, &t_p_pcb);
+kernel/task_manage.c:				if ((p_tcb->actprc != t_p_pcb->prcid) || (p_pcb != my_p_pcb)) {
+kernel/task_manage.c:				if (TSTAT_RUNNABLE(p_tcb->tstat)) {
+kernel/task_manage.c:				else if (TSTAT_WAITING(p_tcb->tstat)) {
+kernel/task_manage.c:				p_tcb->actque = false;
+kernel/task_manage.c:				p_tcb->actprc = TPRC_NONE;
+kernel/task_manage.c:				p_tcb->p_pcb = t_p_pcb;
+kernel/task_manage.c:			if ((p_tcb->actprc == TPRC_NONE) || (p_tcb->actprc == p_pcb->prcid)) {
+kernel/task_manage.c:				WOBJCB *p_wobjcb = p_tcb->p_wobjcb;
+kernel/task_manage.c:				if ((TSTAT_WAITING(p_tcb->tstat) && !TSTAT_WAIT_WOBJ(p_tcb->tstat))
+kernel/task_manage.c:					|| p_wobjcb != p_tcb->p_wobjcb) {
+kernel/task_manage.c:				if (p_tcb->actque) {
+kernel/task_manage.c:					p_tcb->actque = false;
+kernel/task_manage.c:					p_tcb->actprc = TPRC_NONE;
+kernel/task_manage.c:				t_p_pcb = get_mp_p_pcb(p_tcb->actprc);
+kernel/task_manage.c:				WOBJCB *p_wobjcb = p_tcb->p_wobjcb;
+kernel/task_manage.c:				if (t_acquire_nested_dual_tsk_lock(p_tcb, p_tcb->actprc, &GET_OBJLOCK(p_wobjcb),
+kernel/task_manage.c:				if ((p_wobjcb != p_tcb->p_wobjcb) ||
+kernel/task_manage.c:					(TSTAT_WAITING(p_tcb->tstat) && !TSTAT_WAIT_WOBJ(p_tcb->tstat)) ||
+kernel/task_manage.c:					(get_mp_p_pcb(p_tcb->actprc) != t_p_pcb) ||
+kernel/task_manage.c:				p_tcb->actque = false;
+kernel/task_manage.c:				p_tcb->actprc = TPRC_NONE;
+kernel/task_manage.c:				p_tcb->p_pcb = t_p_pcb;
+kernel/task_manage.c:	newpri = (tskpri == TPRI_INI) ? p_tcb->p_tinib->ipriority
+kernel/task_manage.c:	if (TSTAT_DORMANT(p_tcb->tstat)) {
+kernel/task_manage.c:		if (!(TSTAT_WAITING(p_tcb->tstat) && TSTAT_WAIT_WOBJ(p_tcb->tstat))) {
+kernel/task_manage.c:			WOBJCB *p_wobjcb = p_tcb->p_wobjcb;
+kernel/task_manage.c:			p_tcb->pend_chgpri = true;
+kernel/task_manage.c:			p_tcb->pend_newpri = newpri;
+kernel/task_manage.c:			if (!(p_tcb->pend_chgpri)) {
+kernel/task_manage.c:			p_tcb->priority = p_tcb->pend_newpri;
+kernel/task_manage.c:			p_tcb->pend_chgpri = false;
+kernel/task_manage.c:	if (TSTAT_DORMANT(p_tcb->tstat)) {
+kernel/task_manage.c:		*p_tskpri = EXT_TSKPRI(p_tcb->priority);
+kernel/eventflag.c:		p_winfo_flg = (WINFO_FLG *)(&(p_tcb->winfo_obj));
+kernel/eventflag.c:			queue_delete(&(p_tcb->task_queue));
+kernel/eventflag.c:		p_winfo_flg = (WINFO_FLG *)(&(p_tcb->winfo_obj));
+kernel/eventflag.c:			queue_delete(&(p_tcb->task_queue));
+kernel/task.h:#define	TSKID(p_tcb)	((ID)(((p_tcb->p_tinib) - tinib_table) + TMIN_TSKID))
+kernel/task_sync.c:	if (TSTAT_DORMANT(p_tcb->tstat)) {
+kernel/task_sync.c:	else if (TSTAT_WAIT_SLP(p_tcb->tstat)) {
+kernel/task_sync.c:	else if (!(p_tcb->wupque)) {
+kernel/task_sync.c:		p_tcb->wupque = true;
+kernel/task_sync.c:	if (TSTAT_DORMANT(p_tcb->tstat)) {
+kernel/task_sync.c:	else if (TSTAT_WAIT_SLP(p_tcb->tstat)) {
+kernel/task_sync.c:	else if (!(p_tcb->wupque)) {
+kernel/task_sync.c:		p_tcb->wupque = true;
+kernel/task_sync.c:	if (TSTAT_DORMANT(p_tcb->tstat)) {
+kernel/task_sync.c:		ercd = p_tcb->wupque ? 1 : 0;
+kernel/task_sync.c:		p_tcb->wupque = false;
+kernel/task_sync.c:	if (!TSTAT_WAITING(p_tcb->tstat)) {
+kernel/task_sync.c:		if (!TSTAT_WAIT_WOBJ(p_tcb->tstat)) {
+kernel/task_sync.c:			WOBJCB *p_wobjcb = p_tcb->p_wobjcb;
+kernel/task_sync.c:			p_tcb->pend_relwai = true;
+kernel/task_sync.c:			if (!(p_tcb->pend_relwai)) {
+kernel/task_sync.c:			p_tcb->pend_relwai = false;
+kernel/task_sync.c:	if (!TSTAT_WAITING(p_tcb->tstat)) {
+kernel/task_sync.c:		if (!TSTAT_WAIT_WOBJ(p_tcb->tstat)) {
+kernel/task_sync.c:			WOBJCB *p_wobjcb = p_tcb->p_wobjcb;
+kernel/task_sync.c:			p_tcb->pend_relwai = true;
+kernel/task_sync.c:			if (!(p_tcb->pend_relwai)) {
+kernel/task_sync.c:			p_tcb->pend_relwai = false;
+kernel/task_sync.c:	else if (TSTAT_DORMANT(p_tcb->tstat)) {
+kernel/task_sync.c:	else if (TSTAT_RUNNABLE(p_tcb->tstat)) {
+kernel/task_sync.c:		p_tcb->tstat = TS_SUSPENDED;
+kernel/task_sync.c:	else if (TSTAT_SUSPENDED(p_tcb->tstat)) {
+kernel/task_sync.c:		p_tcb->tstat |= TS_SUSPENDED;
+kernel/task_sync.c:	if (!TSTAT_SUSPENDED(p_tcb->tstat)) {
+kernel/task_sync.c:	else if (!TSTAT_WAITING(p_tcb->tstat)) {
+kernel/task_sync.c:		p_tcb->tstat = TS_RUNNABLE;
+kernel/task_sync.c:		p_tcb->tstat &= ~TS_SUSPENDED;
+kernel/mailbox.c:		((WINFO_MBX *)(&(p_tcb->winfo_obj)))->pk_msg = pk_msg;
+kernel/task.c:            p_tcb->p_tinib = &(tinib_table[j]);
+kernel/task.c:            p_tcb->actque = false;
+kernel/task.c:            p_tcb->actprc = TPRC_NONE;
+kernel/task.c:            //p_tcb->p_pcb = my_p_pcb;
+kernel/task.c:            p_tcb->p_pcb = NULL;
+kernel/task.c:            p_tcb->current_deadline=0;
+kernel/task.c:            queue_initialize(&(p_tcb->global_queue_hook));
+kernel/task.c:            if ((p_tcb->p_tinib->tskatr & TA_ACT) != 0U) {
+kernel/task.c:    uint_t	pri = p_tcb->priority;
+kernel/task.c:    position = q_insert_edf(&((g_edf_q)[pri]), &(p_tcb->global_queue_hook));
+kernel/task.c:    //p_pcb = p_tcb->p_pcb;
+kernel/task.c:    //queue_insert_prev(&((p_pcb->ready_queue)[pri]), &(p_tcb->task_queue));
+kernel/task.c:       // p_tcb->p_pcb = p_pcb;
+kernel/task.c:        //p_tcb->actprc = p_pcb->prcid;
+kernel/task.c:    uint_t	pri = p_tcb->priority;
+kernel/task.c:    //QUEUE	*p_queue = &((p_tcb->p_pcb->ready_queue)[pri]);
+kernel/task.c:    PCB		*p_pcb = p_tcb->p_pcb;
+kernel/task.c:    //queue_delete(&(p_tcb->task_queue));
+kernel/task.c:    queue_delete(&(p_tcb->global_queue_hook));
+kernel/task.c:    p_tcb->tstat = TS_DORMANT;
+kernel/task.c:    p_tcb->priority = p_tcb->p_tinib->ipriority;
+kernel/task.c:    p_tcb->wupque = false;
+kernel/task.c:    p_tcb->enatex = false;
+kernel/task.c:    p_tcb->texptn = 0U;
+kernel/task.c:    p_tcb->pend_relwai = false;
+kernel/task.c:    p_tcb->pend_chgpri = false;
+kernel/task.c:    p_tcb->tstat = TS_RUNNABLE;
+kernel/task.c:    p_pcb = p_tcb->p_pcb;
+kernel/task.c:    oldpri = p_tcb->priority;
+kernel/task.c:    p_tcb->priority = newpri;
+kernel/task.c:    if (TSTAT_RUNNABLE(p_tcb->tstat)) {
+kernel/task.c:        queue_delete(&(p_tcb->task_queue));
+kernel/task.c:        queue_insert_prev(&((p_pcb->ready_queue)[newpri]), &(p_tcb->task_queue));
+kernel/task.c:        if (TSTAT_WAIT_WOBJCB(p_tcb->tstat)) {
+kernel/task.c:            wobj_change_priority(p_tcb->p_wobjcb, p_tcb);
+kernel/task.c:    uint_t	pri = p_tcb->priority;
+kernel/task.c:    queue_delete(&(p_tcb->task_queue));
+kernel/task.c:    queue_insert_prev(p_queue, &(p_tcb->task_queue));
+kernel/task.c:    if (TSTAT_RUNNABLE(p_tcb->tstat)) {
+kernel/task.c:        p_tcb->p_pcb = t_p_pcb;
+kernel/task.c:    p_tcb->p_pcb = t_p_pcb;
+kernel/task.c:    p_tcb->actque = false;
+kernel/task.c:    p_tcb->actprc = TPRC_NONE;
+kernel/dataqueue.c:		p_tcb->winfo_obj.dtq.data = data;
+kernel/dataqueue.c:		p_tcb->winfo_obj.dtq.data = data;
+kernel/dataqueue.c:		p_tcb->winfo_obj.dtq.data = data;
+kernel/dataqueue.c:		p_tcb->winfo_obj.dtq.data = data;
+kernel/dataqueue.c:		p_tcb->winfo_obj.dtq.data = data;
+kernel/dataqueue.c:		p_tcb->winfo_obj.dtq.data = data;
+kernel/dataqueue.c:			enqueue_data(p_dtqcb, p_tcb->winfo_obj.dtq.data);
+kernel/dataqueue.c:			*p_data = p_tcb->winfo_obj.dtq.data;
+kernel/dataqueue.c:			enqueue_data(p_dtqcb, p_tcb->winfo_obj.dtq.data);
+kernel/dataqueue.c:			*p_data = p_tcb->winfo_obj.dtq.data;
+kernel/dataqueue.c:			enqueue_data(p_dtqcb, p_tcb->winfo_obj.dtq.data);
+kernel/dataqueue.c:			*p_data = p_tcb->winfo_obj.dtq.data;
+kernel/wait.h:	uint_t	pri = p_tcb->priority;
+kernel/wait.h:	queue_insert_prev(p_entry, &(p_tcb->task_queue));
+kernel/wait.h:	assert(TSTAT_WAITING(p_tcb->tstat));
+kernel/wait.h:	if (p_tcb->pend_chgpri) {
+kernel/wait.h:		p_tcb->priority = p_tcb->pend_newpri;
+kernel/wait.h:		p_tcb->pend_chgpri = false;
+kernel/wait.h:	p_tcb->pend_relwai = false;
+kernel/wait.h:	if (!TSTAT_SUSPENDED(p_tcb->tstat)) {
+kernel/wait.h:		p_tcb->tstat = TS_RUNNABLE;
+kernel/wait.h:		p_tcb->tstat = TS_SUSPENDED;
+kernel/wait.h:	if (TSTAT_WAIT_WOBJ(p_tcb->tstat)) {
+kernel/wait.h:		queue_delete(&(p_tcb->task_queue));
+kernel/wait.h:	if ((p_tcb->tmevtb).callback != NULL) {
+kernel/wait.h:		tmevtb_dequeue(p_tcb->p_pcb->p_tevtcb, &(p_tcb->tmevtb));
+kernel/wait.h:		queue_delete(&(p_tcb->task_queue));
+kernel/task_refer.c:	tstat = p_tcb->tstat;
+kernel/task_refer.c:		pk_rtsk->tskpri = EXT_TSKPRI(p_tcb->priority);
+kernel/task_refer.c:		pk_rtsk->tskbpri = EXT_TSKPRI(p_tcb->priority);
+kernel/task_refer.c:				pk_rtsk->wobjid = SEMID(((SEMCB*)(p_tcb->p_wobjcb)));
+kernel/task_refer.c:				pk_rtsk->wobjid = FLGID(((FLGCB*)(p_tcb->p_wobjcb)));
+kernel/task_refer.c:				pk_rtsk->wobjid = DTQID(((DTQCB*)(p_tcb->p_wobjcb)));
+kernel/task_refer.c:				pk_rtsk->wobjid = DTQID(((DTQCB*)(p_tcb->p_wobjcb)));
+kernel/task_refer.c:				pk_rtsk->wobjid = PDQID(((PDQCB*)(p_tcb->p_wobjcb)));
+kernel/task_refer.c:				pk_rtsk->wobjid = PDQID(((PDQCB*)(p_tcb->p_wobjcb)));
+kernel/task_refer.c:				pk_rtsk->wobjid = MBXID(((MBXCB*)(p_tcb->p_wobjcb)));
+kernel/task_refer.c:				pk_rtsk->wobjid = MPFID(((MPFCB*)(p_tcb->p_wobjcb)));
+kernel/task_refer.c:			if ((p_tcb->tmevtb).callback != NULL) {
+kernel/task_refer.c:									  &(p_tcb->tmevtb));
+kernel/task_refer.c:		pk_rtsk->wupcnt = p_tcb->wupque ? 1U : 0U;
+kernel/task_refer.c:	pk_rtsk->actcnt = p_tcb->actque ? 1U : 0U;
+kernel/task_refer.c:	pk_rtsk->actprc = p_tcb->actprc;
+kernel/task_refer.c:	pk_rtsk->prcid = p_tcb->p_pcb->prcid;
+Binary file build/fmp.bin matches
+Binary file build/obj/wait.o matches
+Binary file build/fmp matches
+Binary file build/libkernel.a matches

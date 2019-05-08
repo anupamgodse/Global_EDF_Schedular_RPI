@@ -1,0 +1,547 @@
+queue edf init -3
+queue edf init -1
+queue edf init
+init task core affinity 1, task 1
+In make runnable prio 2 p_tcb = 464440
+make runnable: pos_local= 0, num_elem= 1, pos_global = 0, higher = 0, core=1
+schedule
+getpcb
+gotpcb
+return valid
+scheduling on proc 1
+flag
+dispatching make runnable: releasing lock, core=1
+init task core affinity 1, task 2
+init task core affinity 1, task 3
+init task core affinity 1, task 4
+init task core affinity 1, task 5
+In make runnable prio 4 p_tcb = 464008
+make runnable: pos_local= 0, num_elem= 2, pos_global = 1, higher = 1, core=1
+init task core affinity 1, task 6
+In make runnable prio 3 p_tcb = 464288
+make runnable: pos_local= 0, num_elem= 3, pos_global = 1, higher = 1, core=1
+total tasks at start = 0
+tnumtsk = 6
+id = 0 cyctim = 10000
+
+TOPPERS/FMP Kernel Release 1.4.0 for RPI-ARM64(BCM283X(Cortex-A53)) (May  1 2019, 20:57:55)
+Copyright (C) 2000-2003 by Embedded and Real-Time Systems Laboratory
+                            Toyohashi Univ. of Technology, JAPAN
+Copyright (C) 2004-2015 by Embedded and Real-Time Systems Laboratory
+            Graduate School of Information Science, Nagoya Univ., JAPAN
+
+Processor 1 start.
+local_inirtn exinf = 1, countSystem logging task is started on port 1.
+In make non _runnable entry1 total=3 done with 464440 changes working
+In make non _runnable entry2 2
+In make non _runnable done 1 sched 464288
+IN make_non_runnable dspflg = 1
+Server task 1 starts.
+In make non _runnable entry1 total=2 done with 464288 changes working
+In make non _runnable entry2 1
+In make non _runnable done 1 sched 464008
+IN make_non_runnable dspflg = 1
+queue edf init -3
+queue edf init -1
+queue edf init
+init task core affinity 1, task 1
+In make runnable prio 2 p_tcb = 464440
+make runnable: pos_local= 0, num_elem= 1, pos_global = 0, higher = 0, core=1
+schedule
+getpcb
+gotpcb
+return valid
+scheduling on proc 1
+flag
+dispatching make runnable: releasing lock, core=1
+init task core affinity 1, task 2
+init task core affinity 1, task 3
+init task core affinity 1, task 4
+init task core affinity 1, task 5
+In make runnable prio 4 p_tcb = 464008
+make runnable: pos_local= 0, num_elem= 2, pos_global = 1, higher = 1, core=1
+init task core affinity 1, task 6
+In make runnable prio 3 p_tcb = 464288
+make runnable: pos_local= 0, num_elem= 3, pos_global = 1, higher = 1, core=1
+total tasks at start = 0
+tnumtsk = 6
+id = 0 cyctim = 10000
+
+TOPPERS/FMP Kernel Release 1.4.0 for RPI-ARM64(BCM283X(Cortex-A53)) (May  1 2019, 21:14:01)
+Copyright (C) 2000-2003 by Embedded and Real-Time Systems Laboratory
+                            Toyohashi Univ. of Technology, JAPAN
+Copyright (C) 2004-2015 by Embedded and Real-Time Systems Laboratory
+            Graduate School of Information Science, Nagoya Univ., JAPAN
+
+Processor 1 start.
+local_inirtn exinf = 1, countSystem logging task is started on port 1.
+In make non _runnable entry1 total=3 done with 464440 changes working
+In make non _runnable entry2 2
+In make non _runnable done 1 sched 464288
+IN make_non_runnable dspflg = 1
+Server task 1 starts.
+In make non _runnable entry1 total=2 done with 464288 changes working
+In make non _runnable entry2 1
+In make non _runnable done 1 sched 464008
+IN make_non_runnable dspflg = 1
+queue edf init -3
+queue edf init -1
+queue edf init
+init task core affinity 1, task 1
+In make runnable prio 2 p_tcb = 464440
+make runnable: pos_local= 0, num_elem= 1, pos_global = 0, higher = 0, core=1
+schedule
+getpcb
+gotpcb
+return valid
+scheduling on proc 1
+flag
+dispatching make runnable: releasing lock, core=1
+init task core affinity 1, task 2
+init task core affinity 1, task 3
+init task core affinity 1, task 4
+init task core affinity 1, task 5
+In make runnable prio 4 p_tcb = 464008
+make runnable: pos_local= 0, num_elem= 2, pos_global = 1, higher = 1, core=1
+init task core affinity 1, task 6
+In make runnable prio 3 p_tcb = 464288
+make runnable: pos_local= 0, num_elem= 3, pos_global = 1, higher = 1, core=1
+total tasks at start = 0
+tnumtsk = 6
+id = 0 cyctim = 10000
+
+TOPPERS/FMP Kernel Release 1.4.0 for RPI-ARM64(BCM283X(Cortex-A53)) (May  1 2019, 21:16:22)
+Copyright (C) 2000-2003 by Embedded and Real-Time Systems Laboratory
+                            Toyohashi Univ. of Technology, JAPAN
+Copyright (C) 2004-2015 by Embedded and Real-Time Systems Laboratory
+            Graduate School of Information Science, Nagoya Univ., JAPAN
+
+Processor 1 start.
+local_inirtn exinf = 1, counter = 1
+queue edf init -3
+queue edf init -1
+queue edf init
+init task core affinity 1, task 1
+In make runnable prio 2 p_tcb = 464440
+make runnable: pos_local= 0, num_elem= 1, pos_global = 0, higher = 0, core=1
+schedule
+getpcb
+gotpcb
+return valid
+scheduling on proc 1
+flag
+dispatching make runnable: releasing lock, core=1
+init task core affinity 1, task 2
+init task core affinity 1, task 3
+init task core affinity 1, task 4
+init task core affinity 1, task 5
+In make runnable prio 4 p_tcb = 464008
+make runnable: pos_local= 0, num_elem= 2, pos_global = 1, higher = 1, core=1
+init task core affinity 1, task 6
+In make runnable prio 3 p_tcb = 464288
+make runnable: pos_local= 0, num_elem= 3, pos_global = 1, higher = 1, core=1
+total tasks at start = 0
+tnumtsk = 6
+id = 0 cyctim = 10000
+
+TOPPERS/FMP Kernel Release 1.4.0 for RPI-ARM64(BCM283X(Cortex-A53)) (May  1 2019, 21:23:52)
+Copyright (C) 2000-2003 by Embedded and Real-Time Systems Laboratory
+                            Toyohashi Univ. of Technology, JAPAN
+Copyright (C) 2004-2015 by Embedded and Real-Time Systems Laboratory
+            Graduate School of Information Science, Nagoya Univ., JAPAN
+
+Processor 1 start.
+local_inirtn exinf = 1, countSystem logging task is started on port 1.
+In make non _runnable entry1 total=3 done with 464440 changes working
+In make non _runnable entry2 2
+In make non _runnable done 1 sched 464288
+IN make_non_runnable dspflg = 1
+Server task 1 starts.
+In make non _runnable entry1 total=2 done with 464288 changes working
+In make non _runnable entry2 1
+In make non _runnable done 1 sched 464008
+IN make_non_runnable dspflg = 1
+queue edf init -3
+queue edf init -1
+queue edf init
+init task core affinity 1, task 1
+In make runnable prio 2 p_tcb = 464440
+make runnable: pos_local= 0, num_elem= 1, pos_global = 0, higher = 0, core=1
+schedule
+getpcb
+gotpcb
+return valid
+scheduling on proc 1
+flag
+dispatching make runnable: releasing lock, core=1
+init task core affinity 1, task 2
+init task core affinity 1, task 3
+init task core affinity 1, task 4
+init task core affinity 1, task 5
+In make runnable prio 4 p_tcb = 464008
+make runnable: pos_local= 0, num_elem= 2, pos_global = 1, higher = 1, core=1
+init task core affinity 1, task 6
+In make runnable prio 3 p_tcb = 464288
+make runnable: pos_local= 0, num_elem= 3, pos_global = 1, higher = 1, core=1
+total tasks at start = 0
+tnumtsk = 6
+id = 0 cyctim = 10000
+
+TOPPERS/FMP Kernel Release 1.4.0 for RPI-ARM64(BCM283X(Cortex-A53)) (May  1 2019, 21:31:28)
+Copyright (C) 2000-2003 by Embedded and Real-Time Systems Laboratory
+                            Toyohashi Univ. of Technology, JAPAN
+Copyright (C) 2004-2015 by Embedded and Real-Time Systems Laboratory
+            Graduate School of Information Science, Nagoya Univ., JAPAN
+
+Processor 1 start.
+local_inirtn exinf = 1, countSystem logging task is started on port 1.
+In make non _runnable entry1 total=3 done with 464440 changes working
+In make non _runnable entry2 2
+In make non _runnable done 1 sched 464288
+IN make_non_runnable dspflg = 1
+Server task 1 starts.
+In make non _runnable entry1 total=2 done with 464288 changes working
+In make non _runnable entry2 1
+In make non _runnable done 1 sched 464008
+IN make_non_runnable dspflg = 1
+queue edf init -3
+queue edf init -1
+queue edf init
+init task core affinity 1, task 1
+In make runnable prio 2 p_tcb = 464440
+make runnable: pos_local= 0, num_elem= 1, pos_global = 0, higher = 0, core=1
+schedule
+getpcb
+gotpcb
+return valid
+scheduling on proc 1
+flag
+dispatching make runnable: releasing lock, core=1
+init task core affinity 1, task 2
+init task core affinity 1, task 3
+init task core affinity 1, task 4
+init task core affinity 1, task 5
+In make runnable prio 4 p_tcb = 464008
+make runnable: pos_local= 0, num_elem= 2, pos_global = 1, higher = 1, core=1
+init task core affinity 1, task 6
+In make runnable prio 3 p_tcb = 464288
+make runnable: pos_local= 0, num_elem= 3, pos_global = 1, higher = 1, core=1
+total tasks at start = 0
+tnumtsk = 6
+id = 0 cyctim = 10000
+
+TOPPERS/FMP Kernel Release 1.4.0 for RPI-ARM64(BCM283X(Cortex-A53)) (May  1 2019, 21:52:23)
+Copyright (C) 2000-2003 by Embedded and Real-Time Systems Laboratory
+                            Toyohashi Univ. of Technology, JAPAN
+Copyright (C) 2004-2015 by Embedded and Real-Time Systems Laboratory
+            Graduate School of Information Science, Nagoya Univ., JAPAN
+
+Processor 1 start.
+local_inirtn exinf = 1, countSystem logging task is started on port 1.
+In make non _runnable entry1 total=3 done with 464440 changes working
+In make non _runnable entry2 2
+In make non _runnable done 1 sched 464288
+IN make_non_runnable dspflg = 1
+Server task 1 starts.
+In make non _runnable entry1 total=2 done with 464288 changes working
+In make non _runnable entry2 1
+In make non _runnable done 1 sched 464008
+IN make_non_runnable dspflg = 1
+queue edf init -3
+queue edf init -1
+queue edf init
+init task core affinity 1, task 1
+In make runnable prio 2 p_tcb = 464440
+make runnable: pos_local= 0, num_elem= 1, pos_global = 0, higher = 0, core=1
+schedule
+scheduling on proc 1
+flag
+dispatching make runnable: releasing lock, core=1
+init task core affinity 1, task 2
+init task core affinity 1, task 3
+init task core affinity 1, task 4
+init task core affinity 1, task 5
+In make runnable prio 4 p_tcb = 464008
+make runnable: pos_local= 0, num_elem= 2, pos_global = 1, higher = 1, core=1
+init task core affinity 1, task 6
+In make runnable prio 3 p_tcb = 464288
+make runnable: pos_local= 0, num_elem= 3, pos_global = 1, higher = 1, core=1
+total tasks at start = 0
+tnumtsk = 6
+id = 0 cyctim = 10000
+
+TOPPERS/FMP Kernel Release 1.4.0 for RPI-ARM64(BCM283X(Cortex-A53)) (May  1 2019, 21:57:05)
+Copyright (C) 2000-2003 by Embedded and Real-Time Systems Laboratory
+                            Toyohashi Univ. of Technology, JAPAN
+Copyright (C) 2004-2015 by Embedded and Real-Time Systems Laboratory
+            Graduate School of Information Science, Nagoya Univ., JAPAN
+
+Processor 1 start.
+local_inirtn exinf = 1, countSystem logging task is started on port 1.
+In make non _runnable entry1 total=3 done with 464440 changes working
+In make non _runnable entry2 2
+In make non _runnable done 1 sched 464288
+IN make_non_runnable dspflg = 1
+Server task 1 starts.
+In make non _runnable entry1 total=2 done with 464288 changes working
+In make non _runnable entry2 1
+In make non _runnable done 1 sched 464008
+IN make_non_runnable dspflg = 1
+queue edf init -3
+queue edf init -1
+queue edf init
+init task core affinity 1, task 1
+In make runnable prio 2 p_tcb = 464440
+make runnable: pos_local= 0, num_elem= 1, pos_global = 0, higher = 0, core=1
+schedule
+scheduling on proc 1
+flag
+dispatching make runnable: releasing lock, core=1
+init task core affinity 1, task 2
+init task core affinity 1, task 3
+init task core affinity 1, task 4
+init task core affinity 1, task 5
+In make runnable prio 4 p_tcb = 464008
+make runnable: pos_local= 0, num_elem= 2, pos_global = 1, higher = 1, core=1
+init task core affinity 1, task 6
+In make runnable prio 3 p_tcb = 464288
+make runnable: pos_local= 0, num_elem= 3, pos_global = 1, higher = 1, core=1
+total tasks at start = 0
+tnumtsk = 6
+id = 0 cyctim = 10000
+
+TOPPERS/FMP Kernel Release 1.4.0 for RPI-ARM64(BCM283X(Cortex-A53)) (May  1 2019, 22:21:47)
+Copyright (C) 2000-2003 by Embedded and Real-Time Systems Laboratory
+                            Toyohashi Univ. of Technology, JAPAN
+Copyright (C) 2004-2015 by Embedded and Real-Time Systems Laboratory
+            Graduate School of Information Science, Nagoya Univ., JAPAN
+
+Processor 1 start.
+local_inirtn exinf = 1, counter = 1
+CPU exception handler1 (p_excinf = 00018110).
+sns_loc = 0 sns_dsp = 0 sns_tex = 1
+xsns_dpn = 1 xsns_xpn = 1
+Sample program ends with exception.
+local_terrtn exinf = 1, counter = 2
+TERMINATE 0.
+-- buffered messages --
+
+TOPPERS/FMP Kernel Release 1.4.0 for RPI-ARM64(BCM283X(Cortex-A53)) (May  1 2019, 22:21:47)
+Copyright (C) 2000-2003 by Embedded and Real-Time Systems Laboratory
+                            Toyohashi Univ. of Technology, JAPAN
+Copyright (C) 2004-2015 by Embedded and Real-Time Systems Laboratory
+            Graduate School of Information Science, Nagoya Univ., JAPAN
+
+Processor 1 start.
+local_inirtn exinf = 1, counter = 1
+CPU exception handler1 (p_excinf = 00018110).
+sns_loc = 0 sns_dsp = 0 sns_tex = 1
+xsns_dpn = 1 xsns_xpn = 1
+Sample program ends with exception.
+local_terrtn exinf = 1, counter = 2
+TERMINATE 0.
+TERMINATE done 0.
+global_terrtn exinf = 0, counter = 3
+queue edf init -3
+queue edf init -1
+queue edf init
+init task core affinity 1, task 1
+In make runnable prio 2 p_tcb = 464440
+make runnable: pos_local= 0, num_elem= 1, pos_global = 0, higher = 0, core=1
+schedule
+scheduling on proc 1
+flag
+dispatching make runnable: releasing lock, core=1
+init task core affinity 1, task 2
+init task core affinity 1, task 3
+init task core affinity 1, task 4
+init task core affinity 1, task 5
+In make runnable prio 4 p_tcb = 464008
+make runnable: pos_local= 0, num_elem= 2, pos_global = 1, higher = 1, core=1
+init task core affinity 1, task 6
+In make runnable prio 3 p_tcb = 464288
+make runnable: pos_local= 0, num_elem= 3, pos_global = 1, higher = 1, core=1
+total tasks at start = 0
+tnumtsk = 6
+id = 0 cyctim = 10000
+
+TOPPERS/FMP Kernel Release 1.4.0 for RPI-ARM64(BCM283X(Cortex-A53)) (May  1 2019, 22:26:28)
+Copyright (C) 2000-2003 by Embedded and Real-Time Systems Laboratory
+                            Toyohashi Univ. of Technology, JAPAN
+Copyright (C) 2004-2015 by Embedded and Real-Time Systems Laboratory
+            Graduate School of Information Science, Nagoya Univ., JAPAN
+
+Processor 1 start.
+local_inirtn exinf = 1, countSystem logging task is started on port 1.
+In make non _runnable entry1 total=3 done with 464440 changes working
+In make non _runnable entry2 2
+In make non _runnable done 1 sched 464288
+IN make_non_runnable dspflg = 1
+Server task 1 starts.
+In make non _runnable entry1 total=2 done with 464288 changes working
+In make non _runnable entry2 1
+In make non _runnable done 1 sched 464008
+IN make_non_runnable dspflg = 1
+queue edf init -3
+queue edf init -1
+queue edf init
+init task core affinity 1, task 1
+In make runnable prio 2 p_tcb = 464440
+make runnable: pos_local= 0, num_elem= 1, pos_global = 0, higher = 0, core=1
+schedule
+scheduling on proc 1
+flag
+dispatching make runnable: releasing lock, core=1
+init task core affinity 1, task 2
+init task core affinity 1, task 3
+init task core affinity 1, task 4
+init task core affinity 1, task 5
+In make runnable prio 4 p_tcb = 464008
+make runnable: pos_local= 0, num_elem= 2, pos_global = 1, higher = 1, core=1
+init task core affinity 1, task 6
+In make runnable prio 3 p_tcb = 464288
+make runnable: pos_local= 0, num_elem= 3, pos_global = 1, higher = 1, core=1
+total tasks at start = 0
+tnumtsk = 6
+id = 0 cyctim = 10000
+
+TOPPERS/FMP Kernel Release 1.4.0 for RPI-ARM64(BCM283X(Cortex-A53)) (May  1 2019, 22:26:28)
+Copyright (C) 2000-2003 by Embedded and Real-Time Systems Laboratory
+                            Toyohashi Univ. of Technology, JAPAN
+Copyright (C) 2004-2015 by Embedded and Real-Time Systems Laboratory
+            Graduate School of Information Science, Nagoya Univ., JAPAN
+
+Processor 1 start.
+local_inirtn exinf = 1, countSystem logging task is started on port 1.
+In make non _runnable entry1 total=3 done with 464440 changes working
+In make non _runnable entry2 2
+In make non _runnable done 1 sched 464288
+IN make_non_runnable dspflg = 1
+Server task 1 starts.
+In make non _runnable entry1 total=2 done with 464288 changes working
+In make non _runnable entry2 1
+In make non _runnable done 1 sched 464008
+IN make_non_runnable dspflg = 1
+queue edf init -3
+queue edf init -1
+queue edf init
+init task core affinity 1, task 1
+In make runnable prio 2 p_tcb = 464440
+make runnable: pos_local= 0, num_elem= 1, pos_global = 0, higher = 0, core=1
+schedule
+scheduling on proc 1
+flag
+dispatching make runnable: releasing lock, core=1
+init task core affinity 1, task 2
+init task core affinity 1, task 3
+init task core affinity 1, task 4
+init task core affinity 1, task 5
+In make runnable prio 4 p_tcb = 464008
+make runnable: pos_local= 0, num_elem= 2, pos_global = 1, higher = 1, core=1
+init task core affinity 1, task 6
+In make runnable prio 3 p_tcb = 464288
+make runnable: pos_local= 0, num_elem= 3, pos_global = 1, higher = 1, core=1
+total tasks at start = 0
+tnumtsk = 6
+id = 0 cyctim = 10000
+
+TOPPERS/FMP Kernel Release 1.4.0 for RPI-ARM64(BCM283X(Cortex-A53)) (May  1 2019, 22:26:28)
+Copyright (C) 2000-2003 by Embedded and Real-Time Systems Laboratory
+                            Toyohashi Univ. of Technology, JAPAN
+Copyright (C) 2004-2015 by Embedded and Real-Time Systems Laboratory
+            Graduate School of Information Science, Nagoya Univ., JAPAN
+
+Processor 1 start.
+local_inirtn exinf = 1, countSystem logging task is started on port 1.
+In make non _runnable entry1 total=3 done with 464440 changes working
+In make non _runnable entry2 2
+In make non _runnable done 1 sched 464288
+IN make_non_runnable dspflg = 1
+Server task 1 starts.
+In make non _runnable entry1 total=2 done with 464288 changes working
+In make non _runnable entry2 1
+In make non _runnable done 1 sched 464008
+IN make_non_runnable dspflg = 1
+
+TOPPERS/queue edf init -3
+queue edf init -1
+queue edf init
+init task core affinity 1, task 1
+In make runnable prio 2 p_tcb = 464440
+make runnable: pos_local= 0, num_elem= 1, pos_global = 0, higher = 0, core=1
+schedule
+scheduling on proc 1
+flag
+dispatching make runnable: releasing lock, core=1
+init task core affinity 1, task 2
+init task core affinity 1, task 3
+init task core affinity 1, task 4
+init task core affinity 1, task 5
+In make runnable prio 4 p_tcb = 464008
+make runnable: pos_local= 0, num_elem= 2, pos_global = 1, higher = 1, core=1
+init task core affinity 1, task 6
+In make runnable prio 3 p_tcb = 464288
+make runnable: pos_local= 0, num_elem= 3, pos_global = 1, higher = 1, core=1
+total tasks at start = 0
+tnumtsk = 6
+id = 0 cyctim = 10000
+
+TOPPERS/FMP Kernel Release 1.4.0 for RPI-ARM64(BCM283X(Cortex-A53)) (May  1 2019, 22:39:17)
+Copyright (C) 2000-2003 by Embedded and Real-Time Systems Laboratory
+                            Toyohashi Univ. of Technology, JAPAN
+Copyright (C) 2004-2015 by Embedded and Real-Time Systems Laboratory
+            Graduate School of Information Science, Nagoya Univ., JAPAN
+
+Processor 1 start.
+local_inirtn exinf = 1, countSystem logging task is started on port 1.
+make_non_runnable, task_sync.c, dly_tsk
+In make non _runnable entry1 total=3 done with 464440 changes working
+In make non _runnable entry2 2
+In make non _runnable done 1 sched 464288
+IN make_non_runnable dspflg = 1
+Server task 1 starts.
+In make non _runnable entry1 total=2 done with 464288 changes working
+In make non _runnable entry2 1
+In make non _runnable done 1 sched 464008
+IN make_non_runnable dspflg = 1
+queue edf init -3
+queue edf init -1
+queue edf init
+init task core affinity 1, task 1
+In make runnable prio 2 p_tcb = 464440
+make runnable: pos_local= 0, num_elem= 1, pos_global = 0, higher = 0, core=1
+schedule
+scheduling on proc 1
+flag
+dispatching make runnable: releasing lock, core=1
+init task core affinity 1, task 2
+init task core affinity 1, task 3
+init task core affinity 1, task 4
+init task core affinity 1, task 5
+In make runnable prio 4 p_tcb = 464008
+make runnable: pos_local= 0, num_elem= 2, pos_global = 1, higher = 1, core=1
+init task core affinity 1, task 6
+In make runnable prio 3 p_tcb = 464288
+make runnable: pos_local= 0, num_elem= 3, pos_global = 1, higher = 1, core=1
+total tasks at start = 0
+tnumtsk = 6
+id = 0 cyctim = 10000
+
+TOPPERS/FMP Kernel Release 1.4.0 for RPI-ARM64(BCM283X(Cortex-A53)) (May  1 2019, 22:46:33)
+Copyright (C) 2000-2003 by Embedded and Real-Time Systems Laboratory
+                            Toyohashi Univ. of Technology, JAPAN
+Copyright (C) 2004-2015 by Embedded and Real-Time Systems Laboratory
+            Graduate School of Information Science, Nagoya Univ., JAPAN
+
+Processor 1 start.
+local_inirtn exinf = 1, countSystem logging task is started on port 1.
+make_non_runnable, task_sync.c, dly_tsk
+In make non _runnable entry1 total=3 done with 464440 changes working
+In make non _runnable entry2 2
+In make non _runnable done 1 sched 464288
+IN make_non_runnable dspflg = 1
+Server task 1 starts.
+In make non _runnable entry1 total=2 done with 464288 changes working
+In make non _runnable entry2 1
+In make non _runnable done 1 sched 464008
+IN make_non_runnable dspflg = 1
